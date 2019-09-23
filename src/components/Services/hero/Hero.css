@@ -1,0 +1,35 @@
+.services--hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/quote.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #F7B538;
+    height: 350px;
+    width: 100%;
+    text-align: center;
+    line-height: 350px;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (max-width: 650px) {
+    .services--hero {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .services--hero {
+        height: 300px;
+        line-height: 300px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .services--hero {
+        height: 260px;
+        line-height: 260px;
+        font-size: 22px;
+    }
+}

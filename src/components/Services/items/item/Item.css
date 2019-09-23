@@ -1,0 +1,20 @@
+.item {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    color: #F7B538;
+    margin-left: 30px;
+}
+
+.itemLink {
+    text-decoration: underline;
+    text-decoration-color: #F7B538;
+    margin-left: 20px;
+    color: #F7B538;
+}
+
+@media only screen and (max-width: 375px) {
+    .item {
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,28 @@
+.description--container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F3F3F3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.description--text {
+    color: #345995;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+}
+
+@media only screen and (max-width: 599px) {
+    .description--container {
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .description--text {
+        width: 80%;
+        margin-top: 25px;
+    }
+}

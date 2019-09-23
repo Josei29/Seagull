@@ -1,0 +1,80 @@
+.goBack {
+    text-decoration: none;
+    font-size: 25px;
+    color: #345995;
+    margin-left: 30px;
+}
+
+.data--container {
+    width: 60%;
+    margin: 20px auto;
+    background-color: white;
+    border: 2px solid #345995;
+    box-shadow: 5px 8px #cecece;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.data--list {
+    list-style: square inside;
+}
+
+.data--item {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: #F7B538;
+    margin-top: 20px;
+}
+
+.data--end {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: #345995;
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 785px) {
+    .goBack,
+    .data--item,
+    .data--end {
+        font-size: 20px;
+    }
+
+    .data--container {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .goBack,
+    .data--item,
+    .data--end {
+        font-size: 18px;
+    }
+
+    .goBack,
+    .data--end {
+        margin-left: 20px;
+    }
+
+    .data--item {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    .goBack,
+    .data--item,
+    .data--end {
+        font-size: 16px;
+    }
+
+    .goBack,
+    .data--end {
+        margin-left: 15px;
+    }
+
+    .data--item {
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,27 @@
+.goto {
+    display: inline-block;
+    color: #345995;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    margin-right: 40px;
+    padding: 22px;
+    border: 2px solid #F7B538;
+}
+
+@media only screen and (max-width: 669px) {
+    .goto {
+        margin-right: 0px;
+        padding: 10px;
+        font-size: 22px;
+        width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    .goto {
+        margin-right: 0px;
+        width: -webkit-fill-available;
+        text-align: center;
+    }
+}
