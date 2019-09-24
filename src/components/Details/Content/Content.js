@@ -51,6 +51,7 @@ const Content = (props) => {
     return(
         <div className="data--container">
             <Link to="/services" className="goBack" ><GoBack /> GO BACK</Link>
+            <hr style={{color: "#F3F3F3"}}/>
             <ul className="data--list" >
             {data.map((item, index) => {
                 return <li className="data--item" key={index}>{item}</li>

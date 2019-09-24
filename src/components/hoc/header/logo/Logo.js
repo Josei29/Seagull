@@ -1,19 +1,9 @@
 import React from "react";
 
 const Logo = () => {
-    let svgWidth = "394.918";
-    let svgHeight = "83.708";
-    let svgMargin = "40px";
-
-    if (window.innerWidth < 670) {
-        svgWidth = "250";
-        svgHeight = "50";
-        svgMargin = "0"
-    };
-
     return(
-    <div style={{cursor: "default", marginLeft: {svgMargin}}}>
-        <svg xmlns="http://www.w3.org/2000/svg" width={svgWidth} height={svgHeight} viewBox="0 0 394.918 83.708">
+    <div style={{cursor: "default"}}>
+        <svg xmlns="http://www.w3.org/2000/svg" width="250" height="50" viewBox="0 0 394.918 83.708">
             <g id="Group_1" data-name="Group 1" transform="translate(-78.082)">
                 <g id="Group_22" data-name="Group 22" transform="translate(80.163 8.407)">
                     <g id="Group_21" data-name="Group 21">
