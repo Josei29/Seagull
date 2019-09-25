@@ -4,16 +4,25 @@
     text-decoration: none;
     font-size: 30px;
     font-family: 'Playfair Display', serif;
-    padding: 15px;
+    padding: 22px;
     border: 2px solid #F7B538;
 }
 
 @media only screen and (max-width: 669px) {
     .goto {
         margin-right: 0px;
-        padding: 10px;
-        font-size: 22px;
+        padding: 22px;
+        font-size: 30px;
         width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .goto {
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+        width: -webkit-fill-available;
     }
 }
 
