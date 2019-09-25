@@ -57,7 +57,7 @@ const Content = (props) => {
                 return <li className="data--item" key={index}>{item}</li>
             })}
             </ul>
-            <p className="data--end" >and more! Call Today!</p>
+            <p className="data--end" >and more! Call Today! (214) 622 - 2505</p>
         </div>
     );
 };
