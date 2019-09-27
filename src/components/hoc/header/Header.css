@@ -5,7 +5,7 @@
     background: #F3F3F3;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
     .header {
         flex-direction: column;
     }
