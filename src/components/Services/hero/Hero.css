@@ -3,13 +3,21 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #F7B538;
     height: 350px;
     width: 100%;
     text-align: center;
     line-height: 350px;
     font-size: 50px;
     font-family: "Roboto", sans-serif;
+}
+
+.hero--link {
+    color: #F7B538;
+    text-decoration: none;
+}
+
+.hero--link:hover {
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 650px) {

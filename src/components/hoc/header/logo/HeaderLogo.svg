@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="394.918" height="83.708" viewBox="0 0 394.918 83.708">
-  <g id="Group_1" data-name="Group 1" transform="translate(-78.082)">
+<svg xmlns="http://www.w3.org/2000/svg" width="291.918" height="83.708" viewBox="0 0 291.918 83.708">
+  <g id="Group_4" data-name="Group 4" transform="translate(-78.082)">
     <g id="Group_22" data-name="Group 22" transform="translate(80.163 8.407)">
       <g id="Group_21" data-name="Group 21">
         <g id="Group_14" data-name="Group 14" transform="translate(0 0)">
@@ -30,7 +30,7 @@
         <path id="Path_20" data-name="Path 20" d="M273.389,556.215l15.055-12.492" transform="translate(-235.532 -498.928)" fill="none" stroke="#345995" stroke-linecap="round" stroke-width="2"/>
       </g>
     </g>
-    <text id="SEAGULL" transform="translate(248)" fill="#345995" font-size="40" font-family="PlayfairDisplay-Regular, Playfair Display"><tspan x="0" y="43">SEAGULL</tspan></text>
-    <text id="CONSTRUCTION_SERVICES" data-name="CONSTRUCTION SERVICES" transform="translate(197 70)" fill="#345995" font-size="22" font-family="PlayfairDisplay-Regular, Playfair Display"><tspan x="0" y="0">CONSTRUCTION SERVICES</tspan></text>
+    <text id="SEAGULL" transform="translate(196)" fill="#345995" font-size="40" font-family="PlayfairDisplay-Regular, Playfair Display"><tspan x="0" y="43">SEAGULL</tspan></text>
+    <text id="CONSTRUCTION" transform="translate(198 70)" fill="#345995" font-size="22" font-family="PlayfairDisplay-Regular, Playfair Display"><tspan x="0" y="0">CONSTRUCTION</tspan></text>
   </g>
 </svg>
