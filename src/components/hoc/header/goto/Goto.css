@@ -8,6 +8,10 @@
     border: 2px solid #F7B538;
 }
 
+.goto:hover {
+    background-color: #F7B538;
+}
+
 .goto:last-child {
     border-left: none; 
 }
